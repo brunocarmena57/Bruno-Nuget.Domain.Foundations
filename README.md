@@ -3,7 +3,7 @@
 ## Overview
 This NuGet package furnishes fundamental building blocks for crafting rich and consistent domain models. It offers inherent support for Value Objects, Entity identification, marking Aggregate Roots, and dispatching domain events.
 
-## ✨ Highlights
+##  Highlights
 
 ✅ EntityBase: A foundational class providing identity management and equality checks for entities.
 
@@ -13,14 +13,14 @@ This NuGet package furnishes fundamental building blocks for crafting rich and c
 
 ✅ Domain Event Infrastructure: Mechanisms for publishing and processing significant domain occurrences.
 
-## 📦 Installation
+##  Installation
 
 Install via NuGet:
 ```shell
 dotnet add package Bruno57.Domain.Foundations
 ```
 
-## 🧱 Foundational Elements
+##  Foundational Elements
 ### EntityBase
 A base class for your domain entities, equipped with identity comparison and equality operations.
     
@@ -57,7 +57,7 @@ public class Order : EntityBase
 }
 ```
 
-#### 🧩 Vacuous Marker Interfaces
+####  Vacuous Marker Interfaces
 In conventional Domain-Driven Design, a common practice involves defining an empty interface like so:
 ```csharp
 public interface IAggregateRoot { }
@@ -79,7 +79,7 @@ Empty interfaces don't express any behavior, which is a fundamental purpose of i
 They can be challenging to inspect programmatically and might introduce ambiguity in larger systems.
 Attributes often provide a more suitable mechanism for attaching metadata.
 
-### ✨ The Elegance of [AggregateRoot]
+###  The Elegance of [AggregateRoot]
 By adopting a custom attribute, you embrace a more semantically precise and analyzer-friendly method for tagging metadata.
 
 ```csharp
@@ -89,7 +89,7 @@ public sealed class AggregateRootAttribute : Attribute
 }
 ```
 
-#### 🛠️ Use-case for [AggregateRoot]
+####  Use-case for [AggregateRoot]
 If you’re doing something like domain scanning 
 (e.g. identifying aggregate roots at startup or validation), 
 you can reflect on this attribute easily:
