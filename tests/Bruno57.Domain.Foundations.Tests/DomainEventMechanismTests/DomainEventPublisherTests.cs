@@ -8,7 +8,6 @@ using Moq;
 using Xunit;
 
 namespace Bruno57.Domain.Foundations.Tests.DomainEventMechanismTests;
-
 public class DomainEventPublisherTests
 {
     private readonly Mock<IMediator> _mockMediator;

@@ -2,7 +2,6 @@ using Bruno57.Domain.Foundations.Tests.DomainNotificationTestHelpers;
 using Xunit;
 
 namespace Bruno57.Domain.Foundations.Tests.EntityBaseTests;
-
 public class EntityBaseTests
 {
     [Fact]
