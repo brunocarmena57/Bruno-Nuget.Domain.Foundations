@@ -2,7 +2,6 @@
 using System.Runtime.CompilerServices;
 
 namespace Bruno57.Domain.Foundations.Extensions;
-
 /// <summary>
 /// Guard clause extension.
 /// </summary>

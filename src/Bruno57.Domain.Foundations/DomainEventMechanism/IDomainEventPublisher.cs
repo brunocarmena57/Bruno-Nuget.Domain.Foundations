@@ -1,5 +1,4 @@
 ﻿namespace Bruno57.Domain.Foundations.DomainEventMechanism;
-
 /// <summary>
 /// An interface for publishing events
 /// </summary>

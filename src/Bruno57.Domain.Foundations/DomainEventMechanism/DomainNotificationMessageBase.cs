@@ -2,7 +2,6 @@
 using MediatR;
 
 namespace Bruno57.Domain.Foundations.DomainEventMechanism;
-
 /// <summary>
 /// Base notification message.
 /// </summary>

@@ -1,7 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 
 namespace Bruno57.Domain.Foundations.Attributes;
-
 /// <summary>
 /// Aggregate Root attribute. Use this to tag/mark your root entities when you want to apply constraints.
 /// </summary>

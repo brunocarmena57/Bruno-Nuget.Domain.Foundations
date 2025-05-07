@@ -3,7 +3,6 @@ using MediatR;
 using Microsoft.Extensions.Logging;
 
 namespace Bruno57.Domain.Foundations.DomainEventMechanism;
-
 /// <summary>
 /// A simple implementation to encapsulate the publishing of the events
 /// </summary>

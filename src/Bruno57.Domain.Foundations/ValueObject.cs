@@ -1,5 +1,4 @@
 ﻿namespace Bruno57.Domain.Foundations;
-
 /// <summary>
 /// Value Object logic base class.
 /// <para>An object that represents a descriptive aspect of the domain

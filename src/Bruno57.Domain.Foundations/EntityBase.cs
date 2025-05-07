@@ -2,7 +2,6 @@
 using Bruno57.Domain.Foundations.DomainEventMechanism;
 
 namespace Bruno57.Domain.Foundations;
-
 /// <summary>
 /// Abstract entity base.
 /// </summary>
