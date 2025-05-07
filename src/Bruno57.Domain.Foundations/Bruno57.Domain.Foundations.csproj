@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Company>Bruno57 - https://brunocarmena.netlify.app</Company>
+        <Authors>Bruno Carmena</Authors>
+        <Description>This NuGet package furnishes fundamental building blocks for crafting rich and consistent domain models. It offers inherent support for Value Objects, Entity identification, marking Aggregate Roots, and dispatching domain events.
+        </Description>
+
+        <PackageId>Bruno57.Domain.Foundations</PackageId>
+        <Title>Bruno57.Domain.Foundations</Title>
+        <PackageTags>DDD;Domain-Driven Design;Entity;ValueObject;
+            AggregateRoot;DomainEvents;Clean Architecture;Primitives
+        </PackageTags>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/brunocarmena57/Domain.Foundations</RepositoryUrl>
+        <Version>1.0.3</Version>
+
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <RootNamespace>Bruno57.Domain.Primitives</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions"/>
+
+        <None Include="docs\README.md" Pack="True" PackagePath=""/>
+        <None Include="LICENSE" Pack="true" PackagePath=""/>
+    </ItemGroup>
+</Project>
