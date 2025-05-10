@@ -135,7 +135,7 @@ Use this package in your domain layer when you want to:
 * Manage validation outcomes without resorting to exceptions.
 * Model equality based on the intrinsic attributes of objects rather than their memory locations.
 
-💡 This library follows core DDD principles:
+### This library follows core DDD principles:
 
 * **Encapsulation** - Domain objects protect their invariants
 * **Immutability** - Value objects are immutable once created
@@ -143,7 +143,7 @@ Use this package in your domain layer when you want to:
 * **Expressiveness** - Types reflect the ubiquitous language
 * **Separation of concerns** - Different base classes for different domain concepts
 
-📚 Further Exploration
+### Further Exploration
 
 To delve deeper into the concepts of Domain-Driven Design, consider these resources:
 * "Domain-Driven Design: Tackling Complexity in the Heart of Software" by Eric Evans
